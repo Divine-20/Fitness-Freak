@@ -1,0 +1,7 @@
+function copyMyColor(){
+     var copyText = document.getElementsById("box1")
+    copyText.select();
+    navigator.clipboard.writeText("copyText.value");
+    alert("Wow!! Copied the text: " + copyText);
+}
+

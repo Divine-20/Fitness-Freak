@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" href="./images/twice.jpg">
+    <title>Login</title>
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">
+              <img src="./images/twice.jpg" alt="twice" class="ilogo"><span>Fitness Freak</span>
+            </div>
+          
+            <ul>
+                <li><a href="./landingPage.html">Home</a></li>
+                <li><a href="./aboutUs.html">About us</a></li>
+                <li><a href="./classes.html">Classes</a></li>
+                <li><a href="./Dynamo.html">Dynamo</a></li>
+                <li><a href="./contact.html">Contact us</a></li>
+            </ul>
+            <div class="contact">
+
+            </div>
+        </nav>
+    </header>
+    <section class="login">
+       <div class="circled">
+        <div class="circled1"></div>
+        <div class="circled2"></div>
+        <div class="circled3"></div>
+        <div class="circled4"></div>
+        </div>
+        <div class="loginMain">
+            <form action="./landingPage.html" method="get">
+                <h1>Log In</h1>
+                <label>Email Adress</label><input type="email" name="email" placeholder="Enter your Email">
+                <label>Password</label><input type="password" name="password" placeholder="Enter your password">
+                <input type="checkbox" name="remember" value="remember"><span>Remember me</span>
+               <p>Forgot password?</p>
+               <input type="submit" value="Log In" class="login">
+               <h3>or Log In with</h3>
+               
+
+            </form>
+            <div class="logbtns">
+                <form action="https://accounts.google.com/signup/v2/webcreateaccount?flowName=GlifWebSignIn&flowEntry=SignUp" method="get">
+            <button class="google"><img src="./images/google.jpg" alt="google"><span>Log In with Google </span></button>
+        </form>
+        <form action="https://www.facebook.com/" method="get">
+            <button class="facebook"><img src="./images/facebook.jpg" alt="facebook"><span> Log In with Facebook</span></button>
+        </form>
+            </div>
+              <div class="para">
+                <p>Don't have an account?<a href="./signup.html"><span>Sign Up</span></a></p>
+              </div>
+            </div>
+    </section>
+</body>
+</html>
